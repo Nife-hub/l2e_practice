@@ -1,8 +1,8 @@
 package main
 
-func CountCharacter(str string, c rune) int {
+func CountChar(s string, c rune) int {
 	count := 0
-	for v := range str {
+	for _,  v := range s {
 		if v == c {
 			count++
 		}

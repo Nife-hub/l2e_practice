@@ -2,7 +2,7 @@ package main
 
 func CountAlpha(s string) int {
 	count := 0
-	for v := range s {
+	for _, v := range s {
 		if v >= 'a' && v <= 'z' || v >= 'A' && v <= 'Z' {
 			count++
 		}
