@@ -36,8 +36,65 @@ func main() {
 	// fmt.Println(RectPerimeter(10, -2))
 
 	// RECTPERIMETER
-	fmt.Println(RetainFirstHalf("This is the 1st halfThis is the 2nd half"))
-	fmt.Println(RetainFirstHalf("A"))
-	fmt.Println(RetainFirstHalf(""))
-	fmt.Println(RetainFirstHalf("Hello World"))
+	// fmt.Println(RetainFirstHalf("This is the 1st halfThis is the 2nd half"))
+	// fmt.Println(RetainFirstHalf("A"))
+	// fmt.Println(RetainFirstHalf(""))
+	// fmt.Println(RetainFirstHalf("Hello World"))
+
+	// CAMELTOSNAKECASE
+	// fmt.Println(CamelToSnakeCase("HelloWorld"))
+	// fmt.Println(CamelToSnakeCase("helloWorld"))
+	// fmt.Println(CamelToSnakeCase("camelCase"))
+	// fmt.Println(CamelToSnakeCase("CAMELtoSnackCASE"))
+	// fmt.Println(CamelToSnakeCase("camelToSnakeCase"))
+	// fmt.Println(CamelToSnakeCase("hey2"))
+
+	// DIGITLEN
+	// fmt.Println(DigitLen(100, 10))
+	// fmt.Println(DigitLen(100, 2))
+	// fmt.Println(DigitLen(-100, 16))
+	// fmt.Println(DigitLen(100, -1))
+
+	// FIRSTWORD
+	// fmt.Print(FirstWord(" hello there"))
+    // fmt.Print(FirstWord(""))
+    // fmt.Print(FirstWord("hello   .........  bye"))
+
+	// FISHANDCHIPS
+	// fmt.Println(FishAndChips(4))
+	// fmt.Println(FishAndChips(9))
+	// fmt.Println(FishAndChips(6))
+	
+	// GCD
+	// fmt.Println(Gcd(42, 10))
+	// fmt.Println(Gcd(42, 12))
+	// fmt.Println(Gcd(14, 77))
+	// fmt.Println(Gcd(17, 3))
+
+	// HASHCODE
+	// fmt.Println(HashCode("A"))
+	// fmt.Println(HashCode("AB"))
+	// fmt.Println(HashCode("BAC"))
+	// fmt.Println(HashCode("Hello World"))
+
+	// LASTWORD
+	// fmt.Print(LastWord("this        ...       is sparta, then again, maybe    not"))
+	// fmt.Print(LastWord(" lorem,ipsum "))
+	// fmt.Print(LastWord(" "))
+
+	// REPEATALPHA
+	// fmt.Println(RepeatAlpha("abc"))
+	// fmt.Println(RepeatAlpha("Choumi."))
+	// fmt.Println(RepeatAlpha(""))
+	// fmt.Println(RepeatAlpha("abacadaba 01!"))
+
+	// FINDPREVPRIME
+	// fmt.Println(FindPrevPrime(5))
+	// fmt.Println(FindPrevPrime(4))
+
+	// FROMTO
+	fmt.Print(FromTo(1, 10))
+	fmt.Print(FromTo(10, 1))
+	fmt.Print(FromTo(10, 10))
+	fmt.Print(FromTo(100, 10))
 }
