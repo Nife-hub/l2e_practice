@@ -93,8 +93,33 @@ func main() {
 	// fmt.Println(FindPrevPrime(4))
 
 	// FROMTO
-	fmt.Print(FromTo(1, 10))
-	fmt.Print(FromTo(10, 1))
-	fmt.Print(FromTo(10, 10))
-	fmt.Print(FromTo(100, 10))
+	// fmt.Print(FromTo(1, 10))
+	// fmt.Print(FromTo(10, 1))
+	// fmt.Print(FromTo(10, 10))
+	// fmt.Print(FromTo(100, 10))
+
+	// ISCAPITALISED
+	// fmt.Println(IsCapitalized("Hello! How are you?"))
+	// fmt.Println(IsCapitalized("Hello How Are You"))
+	// fmt.Println(IsCapitalized("Whats 4this 100K?"))
+	// fmt.Println(IsCapitalized("Whatsthis4"))
+	// fmt.Println(IsCapitalized("!!!!Whatsthis4"))
+	// fmt.Println(IsCapitalized(""))
+
+	// ITOA
+	// fmt.Println(Itoa(12345))
+    // fmt.Println(Itoa(0))
+    // fmt.Println(Itoa(-1234))
+    // fmt.Println(Itoa(987654321))
+
+	// THIRDTIMEISACHARM
+	// fmt.Print(ThirdTimeIsACharm("123456789"))
+	// fmt.Print(ThirdTimeIsACharm(""))
+	// fmt.Print(ThirdTimeIsACharm("a b c d e f"))
+	// fmt.Print(ThirdTimeIsACharm("12"))
+
+	// WEAREUNIQUE
+	fmt.Println(WeAreUnique("foo", "boo"))
+	fmt.Println(WeAreUnique("", ""))
+	fmt.Println(WeAreUnique("abc", "def"))
 }
