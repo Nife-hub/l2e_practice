@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+// func main() {
 	// CHECKNUMBER
 	// fmt.Println(CheckNumber("Hello"))
 	// fmt.Println(CheckNumber("Hello123"))
@@ -59,6 +59,10 @@ func main() {
 	// fmt.Print(FirstWord(" hello there"))
     // fmt.Print(FirstWord(""))
     // fmt.Print(FirstWord("hello   .........  bye"))
+	// fmt.Print(FirstWord("            hello   .........  bye"))
+	// fmt.Print(FirstWord("    bye"))
+
+
 
 	// FISHANDCHIPS
 	// fmt.Println(FishAndChips(4))
@@ -119,7 +123,7 @@ func main() {
 	// fmt.Print(ThirdTimeIsACharm("12"))
 
 	// WEAREUNIQUE
-	fmt.Println(WeAreUnique("foo", "boo"))
-	fmt.Println(WeAreUnique("", ""))
-	fmt.Println(WeAreUnique("abc", "def"))
+	// fmt.Println(WeAreUnique("foo", "boo"))
+	// fmt.Println(WeAreUnique("", ""))
+	// fmt.Println(WeAreUnique("abc", "def"))
 }

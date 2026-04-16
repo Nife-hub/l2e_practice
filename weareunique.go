@@ -11,7 +11,6 @@ func WeAreUnique(s1, s2 string) int {
 	for _, ch := range s1 {
 		freq1[ch] = true
 	}
-
 	for _, ch := range s2 {
 		freq2[ch] = true
 	}
@@ -22,12 +21,10 @@ func WeAreUnique(s1, s2 string) int {
 			count++
 		}
 	}
-
 	for ch := range freq2 {
 		if !freq1[ch] {
 			count++
 		}
 	}
-
 	return count
 }
