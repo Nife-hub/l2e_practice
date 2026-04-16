@@ -41,7 +41,7 @@ func AddPrimeSum(n int) int {
 	return sum
 }
 
-func main() {
+func main2() {
 	if len(os.Args) != 2 {
 		fmt.Println(0)
 		return

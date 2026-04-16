@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// func main() {
+func main() {
 	// CHECKNUMBER
 	// fmt.Println(CheckNumber("Hello"))
 	// fmt.Println(CheckNumber("Hello123"))
@@ -126,4 +126,14 @@ import "fmt"
 	// fmt.Println(WeAreUnique("foo", "boo"))
 	// fmt.Println(WeAreUnique("", ""))
 	// fmt.Println(WeAreUnique("abc", "def"))
+
+	input1 := []uint{2, 3, 1, 1, 4}
+	fmt.Println(CanJump(input1))
+
+	input2 := []uint{3, 2, 1, 0, 4}
+	fmt.Println(CanJump(input2))
+
+	input3 := []uint{0}
+	fmt.Println(CanJump(input3))
+
 }
