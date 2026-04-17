@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	// "github.com/01-edu/z01"
+)
 
 func main() {
 	// CHECKNUMBER
@@ -127,13 +130,32 @@ func main() {
 	// fmt.Println(WeAreUnique("", ""))
 	// fmt.Println(WeAreUnique("abc", "def"))
 
-	input1 := []uint{2, 3, 1, 1, 4}
-	fmt.Println(CanJump(input1))
+	// CAN JUMP
+	// input1 := []uint{2, 3, 1, 1, 4}
+	// fmt.Println(CanJump(input1))
 
-	input2 := []uint{3, 2, 1, 0, 4}
-	fmt.Println(CanJump(input2))
+	// input2 := []uint{3, 2, 1, 0, 4}
+	// fmt.Println(CanJump(input2))
 
-	input3 := []uint{0}
-	fmt.Println(CanJump(input3))
+	// input3 := []uint{0}
+	// fmt.Println(CanJump(input3))
+
+	// CHUNK
+	// Chunk([]int{}, 10)
+	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 0)
+	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 3)
+	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 5)
+	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 4)
+
+	// CONCATALTERNATE
+	// fmt.Println(ConcatAlternate([]int{1, 2, 3}, []int{4, 5, 6}))
+	// fmt.Println(ConcatAlternate([]int{2, 4, 6, 8, 10}, []int{1, 3, 5, 7, 9, 11}))
+	// fmt.Println(ConcatAlternate([]int{1, 2, 3}, []int{4, 5, 6, 7, 8, 9}))
+	// fmt.Println(ConcatAlternate([]int{1, 2, 3}, []int{}))
+
+	// CONCATSLICE
+	fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{4, 5, 6}))
+	fmt.Println(ConcatSlice([]int{}, []int{4, 5, 6, 7, 8, 9}))
+	fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{}))
 
 }

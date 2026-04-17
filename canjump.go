@@ -7,22 +7,22 @@ func CanJump(nums []uint) bool {
 	if len(nums) == 1 {
 		return true
 	}
-	current := 0
+	currentIndex := 0
 	lastIndex := len(nums) - 1
 
-	for current < len(nums) {
-		if current == lastIndex {
+	for currentIndex < len(nums) {
+		if currentIndex == lastIndex {
 			return true
 		} 
-		if nums[current] == 0 {
+		if nums[currentIndex] == 0 {
 			return false
 		}
-		next := current + int(nums[current])
+		nextIndex := currentIndex + int(nums[currentIndex])
 
-		if next > lastIndex {
+		if nextIndex > lastIndex {
 			return false
 		}
-		current = next
+		currentIndex = nextIndex
 	}
 	return false
 }
