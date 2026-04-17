@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 // func main() {
 	// CHECKNUMBER
@@ -126,4 +126,4 @@ import "fmt"
 	// fmt.Println(WeAreUnique("foo", "boo"))
 	// fmt.Println(WeAreUnique("", ""))
 	// fmt.Println(WeAreUnique("abc", "def"))
-}
+// }
