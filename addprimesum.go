@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func Atoi(s string) int {
+func Atoi2(s string) int {
 	n := 0
 	for i := 0; i < len(s); i++ {
 		if s[i] < '0' || s[i] > '9' {

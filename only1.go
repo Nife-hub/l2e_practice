@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+// import "github.com/01-edu/z01"
 
-func Only1() {
-	fmt.Print("1")
-}
+// func main() {
+// 	z01.PrintRune('1')
+// }

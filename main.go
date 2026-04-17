@@ -1,11 +1,11 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	// "github.com/01-edu/z01"
 )
 
-func main() {
+// func main() {
 	// CHECKNUMBER
 	// fmt.Println(CheckNumber("Hello"))
 	// fmt.Println(CheckNumber("Hello123"))
@@ -154,8 +154,16 @@ func main() {
 	// fmt.Println(ConcatAlternate([]int{1, 2, 3}, []int{}))
 
 	// CONCATSLICE
-	fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{4, 5, 6}))
-	fmt.Println(ConcatSlice([]int{}, []int{4, 5, 6, 7, 8, 9}))
-	fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{}))
+	// fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{4, 5, 6}))
+	// fmt.Println(ConcatSlice([]int{}, []int{4, 5, 6, 7, 8, 9}))
+	// fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{}))
 
-}
+	// SAVEANDMISS
+// 	fmt.Println(SaveAndMiss("123456789", 3))
+// 	fmt.Println(SaveAndMiss("abcdefghijklmnopqrstuvwyz", 3))
+// 	fmt.Println(SaveAndMiss("", 3))
+// 	fmt.Println(SaveAndMiss("hello you all ! ", 0))
+// 	fmt.Println(SaveAndMiss("what is your name?", 0))
+// 	fmt.Println(SaveAndMiss("go Exercise Save and Miss", -5))
+
+// }

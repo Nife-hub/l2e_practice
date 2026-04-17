@@ -20,7 +20,7 @@ func Itoa(n int) string {
 			digit = -digit
 		}
 
-		result = string('0'+digit) + result
+		result = string(rune('0'+digit)) + result
 		n /= 10
 	}
 

@@ -6,6 +6,7 @@ func Chunk(slice []int, size int) {
 	if size == 0 {
 		z01.PrintRune('\n')
 	}
+	
 	var chunks [][]int
 	for i := 0; i < len(slice); i += size {
 		end := i + size
