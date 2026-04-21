@@ -35,17 +35,3 @@ func CamelToSnakeCase(s string) string {
 }
 
 
-
-	// res := ""
-	// for i := 0; i < len(s); i++ {
-	// 	ch := s[i]
-		
-	// 	if s[i] >= 'A' && s[i] <= 'Z' {
-	// 		if i != 0 {
-	// 			res += "_" + string(ch + 32)
-	// 		} else {
-	// 			res += string(ch)
-	// 		}
-	// 	}
-	// }
-	// return res
