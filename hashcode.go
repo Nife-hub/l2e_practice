@@ -14,7 +14,7 @@ func HashCode(s string) string{
 		if hash < 33 {
 			hash += 33
 		}
-		result = result + string(hash) 
+		result = result + string(rune(hash))
 	}
 	return result
 }
