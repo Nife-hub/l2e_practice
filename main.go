@@ -65,8 +65,6 @@ func main() {
 	fmt.Print(FirstWord("            hello   .........  bye"))
 	fmt.Print(FirstWord("    bye"))
 
-
-
 	// FISHANDCHIPS
 	// fmt.Println(FishAndChips(4))
 	// fmt.Println(FishAndChips(9))
