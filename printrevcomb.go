@@ -2,7 +2,7 @@ package main
 
 import "github.com/01-edu/z01"
 
-func main4() {
+func main6() {
 	first := true
 
 	for a := '9'; a >= '0'; a-- {
@@ -23,4 +23,5 @@ func main4() {
 		}
 	}
 	z01.PrintRune('\n')
+
 }
