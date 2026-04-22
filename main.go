@@ -59,11 +59,11 @@ func main() {
 	// fmt.Println(DigitLen(100, -1))
 
 	// FIRSTWORD
-	fmt.Print(FirstWord(" hello there"))
-    fmt.Print(FirstWord(""))
-    fmt.Print(FirstWord("hello   .........  bye"))
-	fmt.Print(FirstWord("            hello   .........  bye"))
-	fmt.Print(FirstWord("    bye"))
+	// fmt.Print(FirstWord(" hello there"))
+    // fmt.Print(FirstWord(""))
+    // fmt.Print(FirstWord("hello   .........  bye"))
+	// fmt.Print(FirstWord("            hello   .........  bye"))
+	// fmt.Print(FirstWord("    bye"))
 
 	// FISHANDCHIPS
 	// fmt.Println(FishAndChips(4))
@@ -112,10 +112,10 @@ func main() {
 	// fmt.Println(IsCapitalized(""))
 
 	// ITOA
-	// fmt.Println(Itoa(12345))
-    // fmt.Println(Itoa(0))
-    // fmt.Println(Itoa(-1234))
-    // fmt.Println(Itoa(987654321))
+	fmt.Println(Itoa(12345))
+    fmt.Println(Itoa(0))
+    fmt.Println(Itoa(-1234))
+    fmt.Println(Itoa(987654321))
 
 	// THIRDTIMEISACHARM
 	// fmt.Print(ThirdTimeIsACharm("123456789"))
@@ -157,11 +157,11 @@ func main() {
 	// fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{}))
 
 	// SAVEANDMISS
-// 	fmt.Println(SaveAndMiss("123456789", 3))
-// 	fmt.Println(SaveAndMiss("abcdefghijklmnopqrstuvwyz", 3))
-// 	fmt.Println(SaveAndMiss("", 3))
-// 	fmt.Println(SaveAndMiss("hello you all ! ", 0))
-// 	fmt.Println(SaveAndMiss("what is your name?", 0))
-// 	fmt.Println(SaveAndMiss("go Exercise Save and Miss", -5))
+	// 	fmt.Println(SaveAndMiss("123456789", 3))
+	// 	fmt.Println(SaveAndMiss("abcdefghijklmnopqrstuvwyz", 3))
+	// 	fmt.Println(SaveAndMiss("", 3))
+	// 	fmt.Println(SaveAndMiss("hello you all ! ", 0))
+	// 	fmt.Println(SaveAndMiss("what is your name?", 0))
+	// 	fmt.Println(SaveAndMiss("go Exercise Save and Miss", -5))
 
 }

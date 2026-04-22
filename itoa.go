@@ -19,7 +19,7 @@ func Itoa(n int) string {
 			digit = -digit 
 		}
 
-		result = result + string(rune(digit + '0'))
+		result = string(rune(digit + '0')) + result
 		n /= 10
 	}
 
@@ -29,4 +29,8 @@ func Itoa(n int) string {
 	return result
 } 
 
-	
+
+// 12345
+// 0
+// -1234
+// 987654321
