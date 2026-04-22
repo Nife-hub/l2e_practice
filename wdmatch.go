@@ -6,7 +6,7 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func main() {
+func main3() {
 	args := os.Args[1:]
 
 	if len(args) != 2 {

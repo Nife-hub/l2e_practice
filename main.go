@@ -1,11 +1,11 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	// "github.com/01-edu/z01"
 )
 
-// func main() {
+func main() {
 	// CHECKNUMBER
 	// fmt.Println(CheckNumber("Hello"))
 	// fmt.Println(CheckNumber("Hello123"))
@@ -59,11 +59,11 @@ import (
 	// fmt.Println(DigitLen(100, -1))
 
 	// FIRSTWORD
-	// fmt.Print(FirstWord(" hello there"))
-    // fmt.Print(FirstWord(""))
-    // fmt.Print(FirstWord("hello   .........  bye"))
-	// fmt.Print(FirstWord("            hello   .........  bye"))
-	// fmt.Print(FirstWord("    bye"))
+	fmt.Print(FirstWord(" hello there"))
+    fmt.Print(FirstWord(""))
+    fmt.Print(FirstWord("hello   .........  bye"))
+	fmt.Print(FirstWord("            hello   .........  bye"))
+	fmt.Print(FirstWord("    bye"))
 
 
 
@@ -166,4 +166,4 @@ import (
 // 	fmt.Println(SaveAndMiss("what is your name?", 0))
 // 	fmt.Println(SaveAndMiss("go Exercise Save and Miss", -5))
 
-// }
+}

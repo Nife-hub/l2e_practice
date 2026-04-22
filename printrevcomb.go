@@ -1,20 +1,26 @@
 package main
 
-import "fmt"
+import "github.com/01-edu/z01"
 
-func PrintRevComb() {
-	for i := 9; i >= 0; i-- {
-		for j := 9; j >= 0; j-- {
-			for k := 9; k >= 0; k-- {
-				if i != k && j != k && i > j && j > k {
-					fmt.Print(i)
-					fmt.Print(j)
-					fmt.Print(k)
-					if i != 2 && j != 1 && k != 0 {
-						fmt.Print(", ")
-					}
+func main4() {
+	first := true
+
+	for a := '9'; a >= '0'; a-- {
+		for b := a - 1; b >= '0'; b-- {
+			for c := b - 1; c >= '0'; c-- {
+
+				if !first {
+					z01.PrintRune(',')
+					z01.PrintRune(' ')
 				}
+
+				z01.PrintRune(a)
+				z01.PrintRune(b)
+				z01.PrintRune(c)
+
+				first = false
 			}
-		} 
+		}
 	}
+	z01.PrintRune('\n')
 }
