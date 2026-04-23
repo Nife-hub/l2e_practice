@@ -1,24 +1,26 @@
 package main
 
 func ConcatAlternate(a []int, b []int) []int {
-	var result []int
+	var slice []int
 
 	i, j := 0, 0
 
-	aTurn := len(a) >= len(b)
+	aTurn := len(a) <= len(b)
 
-	for i < len(a) || j < len(b) {
+	for i < len(a) || i < len(b){
 		if aTurn {
 			if i < len(a) {
-				result = append(result, a[i])
+				slice = append(slice, a[i])
+				i++
 			}
+			
 		} else {
 			if j < len(b) {
-				result = append(result, b[j])
+				slice = append(slice, b[j])
+				j++
 			}
 		}
-		
 		aTurn = !aTurn
 	}
-	return result
+	return slice
 }
