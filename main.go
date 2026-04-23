@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	// "github.com/01-edu/z01"
 )
 
@@ -138,12 +138,18 @@ func main() {
 	// input3 := []uint{0}
 	// fmt.Println(CanJump(input3))
 
+	// input2 := []uint{3, 2, 1, 0, 4}
+	// fmt.Println(CanJump(input2))
+
+	// input3 := []uint{0}
+	// fmt.Println(CanJump(input3))
+
 	// CHUNK
-	// Chunk([]int{}, 10)
-	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 0)
-	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 3)
-	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 5)
-	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 4)
+	Chunk([]int{}, 10)
+	Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 0)
+	Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 3)
+	Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 5)
+	Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 4)
 
 	// CONCATALTERNATE
 	// fmt.Println(ConcatAlternate([]int{1, 2, 3}, []int{4, 5, 6}))
@@ -157,11 +163,16 @@ func main() {
 	// fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{}))
 
 	// SAVEANDMISS
-		fmt.Println(SaveAndMiss("123456789", 3))
-		fmt.Println(SaveAndMiss("abcdefghijklmnopqrstuvwyz", 3))
-		fmt.Println(SaveAndMiss("", 3))
-		fmt.Println(SaveAndMiss("hello you all ! ", 0))
-		fmt.Println(SaveAndMiss("what is your name?", 0))
-		fmt.Println(SaveAndMiss("go Exercise Save and Miss", -5))
+	// fmt.Println(SaveAndMiss("123456789", 3))
+	// fmt.Println(SaveAndMiss("abcdefghijklmnopqrstuvwyz", 3))
+	// fmt.Println(SaveAndMiss("", 3))
+	// fmt.Println(SaveAndMiss("hello you all ! ", 0))
+	// fmt.Println(SaveAndMiss("what is your name?", 0))
+	// fmt.Println(SaveAndMiss("go Exercise Save and Miss", -5))
+
+	// ZIPSTRING
+	// fmt.Println(ZipString("YouuungFellllas"))
+	// fmt.Println(ZipString("Thee quuick browwn fox juumps over the laaazy dog"))
+	// fmt.Println(ZipString("Helloo Therre!"))
 
 }

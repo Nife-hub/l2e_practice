@@ -5,19 +5,19 @@ import (
 	"os"
 )
 
-func Atoi2(s string) int {
+func Atoi2(s string) int{
 	n := 0
-	for i := 0; i < len(s); i++ {
-		if s[i] < '0' || s[i] > '9' {
+	for i := 0; i < len(s); i++{
+		if s[i] < '0' || s[i] > '0'{
 			return -1
 		}
-		n = n*10 + int(s[i]-'0')
+		n = n*10 + int(s[i] - '0')
 	}
 	return n
 }
 
-func IsPrime(n int) bool {
-	if n < 2 {
+func IsPrime(n int) bool{
+	if n < 2{
 		return false
 	}
 	for i := 2; i*i <= n; i++ {
@@ -28,30 +28,30 @@ func IsPrime(n int) bool {
 	return true
 }
 
-func AddPrimeSum(n int) int {
+func AddPrimeSum(n int) int{
 	if n < 0 {
 		return 0
 	}
 	sum := 0
-	for i := 2; i <= n; i++ {
-		if IsPrime(i) {
+	for i := 2; i <= n; i++{
+		if isPrime(i){
 			sum += i
 		}
 	}
 	return sum
 }
 
-func main2() {
-	if len(os.Args) != 2 {
-		fmt.Println(0)
+func main8(){
+	if len(os.Args) != 2{
+		fmt.Print(0)
 		return
 	}
+	int := Atoi(os.Args[1])
 
-	n := Atoi(os.Args[1])
-	if n < 0 {
-		fmt.Println(0)
+	if int < 0{
+		fmt.Print(0)
 		return
-	}
+	} 
 
-	fmt.Println(AddPrimeSum(n))
+	fmt.Print(AddPrimeSum(int))
 }
