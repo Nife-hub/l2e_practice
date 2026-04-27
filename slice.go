@@ -4,7 +4,6 @@ import (
 	"fmt"
 )
 
-
 func Slice(a []string, nbrs ...int) []string {
 	length := len(a)
 

@@ -1,11 +1,11 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	// "github.com/01-edu/z01"
 )
 
-// func main() {
+func main() {
 	// CHECKNUMBER
 	// fmt.Println(CheckNumber("Hello"))
 	// fmt.Println(CheckNumber("Hello123"))
@@ -124,9 +124,9 @@ import (
 	// fmt.Print(ThirdTimeIsACharm("12"))
 
 	// WEAREUNIQUE
-	// fmt.Println(WeAreUnique("foo", "boo"))
-	// fmt.Println(WeAreUnique("", ""))
-	// fmt.Println(WeAreUnique("abc", "def"))
+	fmt.Println(WeAreUnique("foo", "boo"))
+	fmt.Println(WeAreUnique("", ""))
+	fmt.Println(WeAreUnique("abc", "def"))
 
 	// CAN JUMP
 	// input1 := []uint{2, 3, 1, 1, 4}
@@ -175,4 +175,13 @@ import (
 	// fmt.Println(ZipString("Thee quuick browwn fox juumps over the laaazy dog"))
 	// fmt.Println(ZipString("Helloo Therre!"))
 
-// }
+	// PRINTMEMORY
+	// PrintMemory2([10]byte{'h', 'e', 'l', 'l', 'o', 16, 21, '*'})
+	// PrintMemory2([10]byte{})
+	// PrintMemory2([10]byte{'A', 'B', 'C', 'D', 'E'})
+	// PrintMemory2([10]byte{'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'})
+	// PrintMemory2([10]byte{1, 2, 3, 'A', 'B', 127, 128, '!', '\n', 'Z'})
+	// PrintMemory2([10]byte{32, 33, 126, 127})
+	// PrintMemory2([10]byte{255, 254, 253, 252})
+
+}
