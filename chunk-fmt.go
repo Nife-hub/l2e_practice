@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func Chunk(slice []int, size int) {
+func Chunk2(slice []int, size int) {
 	if size == 0 {
 		fmt.Println()
 		return
@@ -19,3 +19,6 @@ func Chunk(slice []int, size int) {
 	}
 	fmt.Println(chunk)
 }
+
+
+

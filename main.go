@@ -5,7 +5,7 @@ import (
 	// "github.com/01-edu/z01"
 )
 
-func main() {
+// func main() {
 	// CHECKNUMBER
 	// fmt.Println(CheckNumber("Hello"))
 	// fmt.Println(CheckNumber("Hello123"))
@@ -145,11 +145,11 @@ func main() {
 	// fmt.Println(CanJump(input3))
 
 	// CHUNK
-	Chunk([]int{}, 10)
-	Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 0)
-	Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 3)
-	Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 5)
-	Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 4)
+	// Chunk([]int{}, 10)
+	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 0)
+	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 3)
+	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 5)
+	// Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 4)
 
 	// CONCATALTERNATE
 	// fmt.Println(ConcatAlternate([]int{1, 2, 3}, []int{4, 5, 6}))
@@ -175,4 +175,4 @@ func main() {
 	// fmt.Println(ZipString("Thee quuick browwn fox juumps over the laaazy dog"))
 	// fmt.Println(ZipString("Helloo Therre!"))
 
-}
+// }

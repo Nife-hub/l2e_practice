@@ -12,9 +12,9 @@ func HiddenP(s1, s2 string) int {
 	i, j := 0, 0
 
 	for j < len(s2) {
-		if s2[j] == s1[i] {
+		if s2[j] == s1[i]{
 			i++
-			if i == len(s1) {
+			if i == len(s1){
 				return 1
 			}
 		}

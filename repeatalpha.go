@@ -17,7 +17,9 @@ func RepeatAlpha(s string) string{
 }
    
 
-
+// 'z' - 'a' + 1
+// 122 - 97 + 1
+// 25 + 1 = 26
 
 
 
