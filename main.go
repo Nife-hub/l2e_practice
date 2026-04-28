@@ -1,7 +1,7 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	// "github.com/01-edu/z01"
 )
 
@@ -124,9 +124,9 @@ import (
 	// fmt.Print(ThirdTimeIsACharm("12"))
 
 	// WEAREUNIQUE
-	// fmt.Println(WeAreUnique("foo", "boo"))
-	// fmt.Println(WeAreUnique("", ""))
-	// fmt.Println(WeAreUnique("abc", "def"))
+	fmt.Println(WeAreUnique("foo", "boo"))
+	fmt.Println(WeAreUnique("", ""))
+	fmt.Println(WeAreUnique("abc", "def"))
 
 	// CAN JUMP
 	// input1 := []uint{2, 3, 1, 1, 4}

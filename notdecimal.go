@@ -25,7 +25,7 @@ func NotDecimal(dec string) string {
 			dot = i
 
 		} else if dec[i] < '0' || dec[i] > '9' {
-			// If it's not a digit (0–9), it's invalid input
+			// If it's not a digit (0–9), it's invalid input 
 			return dec + "\n"
 		}
 	}
