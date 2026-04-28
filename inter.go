@@ -1,8 +1,8 @@
 package main
 
 import (
-	"os"
-	"github.com/01-edu/z01"
+	// "os"
+	// "github.com/01-edu/z01"
 )
 
 func Inter(s1, s2 string) string {
@@ -32,15 +32,15 @@ func Inter(s1, s2 string) string {
 	
 
 
-func main(){
-	arg := os.Args[1:]
-	if len(arg) != 2 {
-		return
-	}
+// func main(){
+// 	arg := os.Args[1:]
+// 	if len(arg) != 2 {
+// 		return
+// 	}
 
-	result := Inter(arg[0], arg[1])
-	for _, ch := range result {
-		z01.PrintRune(ch)
-	}
-	z01.PrintRune('\n')
-}
+// 	result := Inter(arg[0], arg[1])
+// 	for _, ch := range result {
+// 		z01.PrintRune(ch)
+// 	}
+// 	z01.PrintRune('\n')
+// }

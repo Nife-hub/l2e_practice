@@ -5,7 +5,7 @@ import (
 	// "github.com/01-edu/z01"
 )
 
-// func main() {
+func main() {
 	// CHECKNUMBER
 	// fmt.Println(CheckNumber("Hello"))
 	// fmt.Println(CheckNumber("Hello123"))
@@ -124,9 +124,9 @@ import (
 	// fmt.Print(ThirdTimeIsACharm("12"))
 
 	// WEAREUNIQUE
-	fmt.Println(WeAreUnique("foo", "boo"))
-	fmt.Println(WeAreUnique("", ""))
-	fmt.Println(WeAreUnique("abc", "def"))
+	// fmt.Println(WeAreUnique("foo", "boo"))
+	// fmt.Println(WeAreUnique("", ""))
+	// fmt.Println(WeAreUnique("abc", "def"))
 
 	// CAN JUMP
 	// input1 := []uint{2, 3, 1, 1, 4}
@@ -175,4 +175,14 @@ import (
 	// fmt.Println(ZipString("Thee quuick browwn fox juumps over the laaazy dog"))
 	// fmt.Println(ZipString("Helloo Therre!"))
 
-// }
+	// NOTDECIMAL
+	fmt.Print(NotDecimal2("0.1"))
+	fmt.Print(NotDecimal2("174.2"))
+	fmt.Print(NotDecimal2("0.1255"))
+	fmt.Print(NotDecimal2("1.20525856"))
+	fmt.Print(NotDecimal2("-0.0f00d00"))
+	fmt.Print(NotDecimal2(""))
+	fmt.Print(NotDecimal2("-19.525856"))
+	fmt.Print(NotDecimal2("1952"))
+
+}
