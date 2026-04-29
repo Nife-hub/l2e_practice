@@ -2,7 +2,7 @@ package main
 
 import "github.com/01-edu/z01"
 
-func main6() {
+func main() {
 	first := true
 
 	for a := '9'; a >= '0'; a-- {

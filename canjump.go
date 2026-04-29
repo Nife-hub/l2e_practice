@@ -9,7 +9,7 @@ func CanJump(nums []uint) bool {
 		return true
 	}
 
-	current := 0
+	current := 0          // loop of nums
 	last := len(nums)-1
 
 	for current < len(nums) {
@@ -30,7 +30,7 @@ func CanJump(nums []uint) bool {
 
 
 
-func CanJump(arr []uint) bool{
+func CanJump3(arr []uint) bool{
 	if len(arr) == 0{
 		return false
 	}
