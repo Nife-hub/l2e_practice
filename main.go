@@ -161,6 +161,8 @@ func main() {
 	// fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{4, 5, 6}))
 	// fmt.Println(ConcatSlice([]int{}, []int{4, 5, 6, 7, 8, 9}))
 	// fmt.Println(ConcatSlice([]int{1, 2, 3}, []int{}))
+	// fmt.Println(ConcatSlice([]int{}, []int{}))
+
 
 	// SAVEANDMISS
 	// fmt.Println(SaveAndMiss("123456789", 3))
@@ -192,11 +194,11 @@ func main() {
 	// fmt.Println(RevConcatAlternate([]int{1, 2, 3}, []int{}))
 
 	// SLICE
-	a := []string{"coding", "algorithm", "ascii", "package", "golang"}
-	fmt.Printf("%#v\n", Slice(a, 1))
-	fmt.Printf("%#v\n", Slice(a, 2, 4))
-	fmt.Printf("%#v\n", Slice(a, -3))
-	fmt.Printf("%#v\n", Slice(a, -2, -1))
-	fmt.Printf("%#v\n", Slice(a, 2, 0))
+	// a := []string{"coding", "algorithm", "ascii", "package", "golang"}
+	// fmt.Printf("%#v\n", Slice(a, 1))
+	// fmt.Printf("%#v\n", Slice(a, 2, 4))
+	// fmt.Printf("%#v\n", Slice(a, -3))
+	// fmt.Printf("%#v\n", Slice(a, -2, -1))
+	// fmt.Printf("%#v\n", Slice(a, 2, 0))
 
 }

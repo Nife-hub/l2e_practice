@@ -6,34 +6,31 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func Atoi(s string) int {
+func Atoi3(s string) int {
 	n := 0
 	for i := 0; i < len(s); i++ {
-		ch := s[i]
-		if ch < '0' || ch > '9' {
+		if s[i] < '0' || s[i] > '9' {
 			return -1
 		}
-		n = n*10 + int(ch-'0')
+		n = n*10 + int(s[i]+'0')
 	}
 	return n
 }
 
-func PrintNbr(n int) {
+func PrintNbr2(n int) {
 	if n > 9 {
-		PrintNbr(n / 10)
+		PrintNbr2(n / 10)
 	}
 	z01.PrintRune(rune(n%10 + '0'))
 }
 
 func main() {
 	arg := os.Args[1:]
-
-	if len(arg) != 1{
+	if len(arg) != 1 {
 		return
 	}
 
-	n :=Atoi(arg[0])
-
+	n := Atoi3(arg[0])
 	first := true
 	i := 2
 
@@ -42,9 +39,9 @@ func main() {
 			if !first {
 				z01.PrintRune('*')
 			}
-			PrintNbr(i)
-			n /= i
+			PrintNbr2(i)
 			first = false
+			n /= i
 		} else {
 			i++
 		}
