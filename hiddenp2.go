@@ -7,13 +7,14 @@ import (
 )
 
 func HiddenP2(a, b string) int {
-	if len(a) == 0 {
+	if len(a) == 1{
 		return 1
 	}
 
-	i, j := 0, 0
+	i := 0
+	j := 0
 
-	for j < len(b) {
+	for j < len(b){
 		if b[j] == a[i] {
 			i++
 			if i == len(a) {
@@ -35,3 +36,23 @@ func main() {
 	z01.PrintRune(rune(result + '0'))
 	z01.PrintRune('\n')
 }
+
+
+
+
+// if len(a) == 0 {
+// 		return 1
+// 	}
+
+// 	i, j := 0, 0
+
+// 	for j < len(b) {
+// 		if b[j] == a[i] {
+// 			i++
+// 			if i == len(a) {
+// 				return 1
+// 			}
+// 		}
+// 		j++
+// 	}
+// 	return 0

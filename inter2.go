@@ -8,23 +8,22 @@ import (
 
 func Inter2(s1, s2 string) string {
 	printed := ""
-	for i := 0; i < len(s1); i++ {
-		ch := s1[i]
-		found := false
-		for b := 0; b < len(printed); b++ {
-			if printed[b] == s1[i] {
-				found = true
+
+	for _, a := range s1{
+		alreadyseen := false
+		for _, b := range printed{
+			if b == a {
+				alreadyseen = true
 				break
 			}
 		}
-
-		if found {
+		if alreadyseen {
 			continue
 		}
 
-		for c := 0; c < len(s2); c++ {
-			if s2[c] == ch {
-				printed = printed + string(ch)
+		for _, v := range s2{
+			if v == a {
+				printed = printed + string(a)
 				break
 			}
 		}
@@ -44,3 +43,37 @@ func main() {
 	}
 	z01.PrintRune('\n')
 }
+
+
+
+
+
+
+
+
+
+
+
+// printed := ""
+// 	for i := 0; i < len(s1); i++ {
+// 		ch := s1[i]
+// 		found := false
+// 		for b := 0; b < len(printed); b++ {
+// 			if printed[b] == s1[i] {
+// 				found = true
+// 				break
+// 			}
+// 		}
+
+// 		if found {
+// 			continue
+// 		}
+
+// 		for c := 0; c < len(s2); c++ {
+// 			if s2[c] == ch {
+// 				printed = printed + string(ch)
+// 				break
+// 			}
+// 		}
+// 	}
+// 	return printed
