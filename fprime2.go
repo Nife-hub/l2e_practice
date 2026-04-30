@@ -12,7 +12,7 @@ func Atoi3(s string) int {
 		if s[i] < '0' || s[i] > '9' {
 			return -1
 		}
-		n = n*10 + int(s[i]+'0')
+		n = n*10 + int(s[i]-'0')
 	}
 	return n
 }
