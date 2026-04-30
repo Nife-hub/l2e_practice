@@ -173,9 +173,9 @@ func main() {
 	// fmt.Println(SaveAndMiss("go Exercise Save and Miss", -5))
 
 	// ZIPSTRING
-	// fmt.Println(ZipString("YouuungFellllas"))
-	// fmt.Println(ZipString("Thee quuick browwn fox juumps over the laaazy dog"))
-	// fmt.Println(ZipString("Helloo Therre!"))
+	// fmt.Println(ZipString2("YouuungFellllas"))
+	// fmt.Println(ZipString2("Thee quuick browwn fox juumps over the laaazy dog"))
+	// fmt.Println(ZipString2("Helloo Therre!"))
 
 	// NOTDECIMAL
 	// fmt.Print(NotDecimal2("0.1"))
@@ -192,6 +192,9 @@ func main() {
 	// fmt.Println(RevConcatAlternate([]int{1, 2, 3}, []int{4, 5, 6, 7, 8, 9}))
 	// fmt.Println(RevConcatAlternate([]int{1, 2, 3, 9, 8}, []int{4, 5}))
 	// fmt.Println(RevConcatAlternate([]int{1, 2, 3}, []int{}))
+	// fmt.Println(RevConcatAlternate([]int{1, 2}, []int{3, 4, 5, 6})) // Output: [6 5 2 4 1 3]
+	// fmt.Println(RevConcatAlternate([]int{1, 2, 3, 4, 5}, []int{6, 7}))    // Output: [5 4 3 2 7 1 6]
+	// fmt.Println(RevConcatAlternate([]int{1, 2, 3}, []int{4, 5, 6}))        // Output: [3 6 2 5 1 4]
 
 	// SLICE
 	// a := []string{"coding", "algorithm", "ascii", "package", "golang"}

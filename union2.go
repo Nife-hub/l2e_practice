@@ -10,20 +10,19 @@ func Union2(s1, s2 string) string {
 	freq := make(map[rune]bool)
 	result := ""
 
-	for _, ch := range s1 {
+	for _, ch := range s1{
 		if !freq[ch] {
 			freq[ch] = true
 			result += string(ch)
 		}
 	}
 
-	for _, ch := range s2 {
+	for _, ch := range s2{
 		if !freq[ch] {
 			freq[ch] = true
 			result += string(ch)
 		}
 	}
-
 	return result
 }
 

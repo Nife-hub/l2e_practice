@@ -55,3 +55,22 @@ func CanJump3(arr []uint) bool{
 		}
 	}
 }
+
+func CanJump4(steps []uint) bool{
+	current := 0
+	end := len(steps)-1
+
+	for current < end{
+		jump := int(steps[current])
+		if jump == 0 {
+			return false
+		}
+		current = jump
+	}
+	return current == end
+}
+
+
+// 2 3 4 1 1   = jump/steps
+// 0 1 2 3 4   = current
+// len(steps)-1 = end
